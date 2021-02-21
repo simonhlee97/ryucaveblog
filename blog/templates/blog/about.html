@@ -1,0 +1,45 @@
+{% extends "blog/base.html" %} {% block content %}
+<h2>About RyuCave.com</h2>
+<p>
+	Thanks for visiting my blog. My name is Simon. I'm from the Midwest (grew up in Indianapolis, and also lived in Chicago for about 10 years). I blog about tech stuff, web development topics like JavaScript, React, VueJS, Node, Django, Flask, CSS, etc., and my journey through life as a crazy average asian-american.
+</p>
+<p>
+	I also enjoy: basketball, tennis, and a general interest in sports, and New Yorker Magazine, NPR, 60s/70s Rock, pizza, tacos, books, podcasts, and learning new things.
+</p>
+
+<h4>My Favorite Album of All Time</h4>
+
+<p>
+	<iframe
+		src="https://open.spotify.com/embed/playlist/4ulyctQtczSTvizhTYx4x2"
+		width="300"
+		height="80"
+		frameborder="0"
+		allowtransparency="true"
+		allow="encrypted-media"
+	></iframe>
+</p>
+
+<p>Feedback, questions, comments can be sent to: <em>indyfob2008@gmail.com</em></p>
+
+<hr />
+
+<h4>RyuCave.com, the code</h4>
+<p>(If you're not a coder/developer, you will find the rest of this page quite boring...)</p>
+<p>TL;DR This blog was built with Django, and some vanilla CSS.</p>
+<img src="https://static.djangoproject.com/img/logos/django-logo-negative.png" alt="djangologo-green" id="logo" />
+
+<p>
+	The previous iteration of my blog was built with <a href="https://11ty.com">Eleventy</a>, a
+	static site generator, and was hosted on Netlify. I really liked using Eleventy. But after
+	learning some Django, I decided on re-building my blog from scratch to take advantage of
+	Django's built-in frameworks and features. Here's a quick rundown of what I gained with Django.
+</p>
+
+<p>With Eleventy, I was writing posts in local Markdown files, and then pushing my commits to GitHub (deployed on Netlify). It was a pretty nice workflow.</p>
+
+<p>However, with <a href="https://docs.djangoproject.com/en/3.0/topics/auth/" target='_blank'>Django's Auth framework</a>, I don't have to have my MacBook to write drafts or publish posts. I can log in from any computer and write drafts or publish posts. I didn't want to spend a lot of time building an auth system for my Eleventy blog.</p>
+
+<p>With Django, adding features like <a href="https://docs.djangoproject.com/en/3.0/ref/contrib/sitemaps/" target='_blank'>RSS feeds</a>, pagination, search, and share-by-email were all quite easy to learn and implement. If you're a developer/blogger, and you have not tried out Django, I highly recommend giving it a try. The more I learn about Django, the more I like this framework. There are many other features I have yet to discover or use. And last but not least, Django has <a href="https://www.djangoproject.com/" target='_blank'>great docs</a> and a fantastic <a href="https://www.djangoproject.com/community/" target="_blank">community</a>.</p>
+
+{% endblock %}
