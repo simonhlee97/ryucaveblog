@@ -6,7 +6,7 @@ ADMINS = (
 )
 
 
-ALLOWED_HOSTS = ['ryucave.com', 'www.ryucave.com', 'localhost']
+ALLOWED_HOSTS = ['simonpost.com', 'www.simonpost.com']
 
 DATABASES = {
     'default': {
