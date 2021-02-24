@@ -16,11 +16,11 @@ body {
 	font-family: Helvetica, Avenir, Arial, sans-serif;
 }
 .ryufont {
-	font-family: fantasy;
 	color: var(--primary-red);
-	font-weight: 700;
-	font-size: 22pt;
-	letter-spacing: 3px;
+	font-weight: 600;
+	font-size: 23pt;
+	letter-spacing: 4px;
+    font-family: 'Londrina Shadow', cursive;
 }
 .ryufont a {
 	color: var(--primary-red);
