@@ -18,8 +18,8 @@ body {
 .ryufont {
 	color: var(--primary-red);
 	font-weight: 600;
-	font-size: 23pt;
-	letter-spacing: 4px;
+	font-size: 21pt;
+	letter-spacing: 3px;
     font-family: 'Londrina Shadow', cursive;
 }
 .ryufont a {
